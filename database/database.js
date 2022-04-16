@@ -1,10 +1,11 @@
 import md5 from 'md5'
-import sqlite3 from 'sqlite3'
+import Sqlite3 from 'sqlite3';
+
+const Prov = Sqlite3.verbose();
 
 const DBSOURCE = "dtb.sqlite" 
 
-
-let db = new sqlite3.Database(DBSOURCE, (err) => {
+let db = new Prov.Database(DBSOURCE, (err) => {
     if (err) {
       // Cannot open database
       console.error(err.message)
