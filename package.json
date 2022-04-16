@@ -1,0 +1,33 @@
+{
+  "name": "apiserver",
+  "version": "1.0.0",
+  "main": "server.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "start",
+    "start": "node server.mjs"
+  },
+  "author": "jashon osala",
+  "license": "MIT",
+  "description": "Sinch sms application",
+  "dependencies": {
+    "express": "^4.17.3",
+    "http": "0.0.1-security",
+    "https": "^1.0.0",
+    "md5": "^2.3.0",
+    "node-fetch": "^3.2.3",
+    "sqlite3": "^5.0.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osala-eng/apiserver.git"
+  },
+  "keywords": [
+    "db"
+  ],
+  "bugs": {
+    "url": "https://github.com/osala-eng/apiserver/issues"
+  },
+  "homepage": "https://github.com/osala-eng/apiserver#readme"
+}
